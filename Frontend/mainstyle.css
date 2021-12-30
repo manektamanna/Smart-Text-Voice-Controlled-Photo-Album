@@ -1,0 +1,94 @@
+body {
+    font-family: Arial;
+}
+* {
+    box-sizing: border-box;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #0d4270;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+form.example button {
+    float: left;
+    width: 5%;
+    padding: 10px;
+    background:#0d4270;
+    color: white;
+    font-size: 17px;
+    border: 1px solid black;
+    border-left: 1px solid black;
+    cursor: pointer;
+}
+form.example button:hover {
+    background: #e66879;
+}
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    text-align: center;
+    padding: 32px;
+}
+.row {
+    display: -ms-flexbox;
+   /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+   /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%;
+   /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+/* Style the buttons */
+.btn {
+    border:lightcoral;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #0d4270;
+    cursor: pointer;
+    font-size: 18px;
+    font-family:fantasy;
+}
+.btn:hover {
+    background-color: #ddd;
+}
+.btn.active {
+    background-color: #0d4270;
+    color: #0d4270;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2
+{
+    color: crimson;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-width: thick;
+}
+h1
+{
+color:orange;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+}
